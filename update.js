@@ -28,9 +28,7 @@ function update() {
         myTurn = true;
         
     }
-    if((numWhite + numBlack == 64) && numWhite < numBlack ){
-        showMessage("HAPPY BIRTHDAY!!")
-    }
+    
     else {
         myTurn = !myTurn;
     }
