@@ -17,14 +17,14 @@ function update() {
     var whiteFlip = canFlip(WHITE);
 
     if (numWhite + numBlack == 64 || (!blackFlip && !whiteFlip)) {
-        showMessage("ゲームオーバー")
+        showMessage("これで終わり？？？？")
     }
     else if (!blackFlip) {
-        showMessage("黒スキップ");
+        showMessage("ドンマイ");
         myTurn = false;
     }
     else if (!whiteFlip) {
-        showMessage("白スキップ");
+        showMessage("やったぜ");
         myTurn = true;
     }
     else {
