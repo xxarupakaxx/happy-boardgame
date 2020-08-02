@@ -26,6 +26,10 @@ function update() {
     else if (!whiteFlip) {
         showMessage("やったぜ");
         myTurn = true;
+        
+    }
+    else if(numWhite < numBlack){
+        showMessage("HAPPY BIRTHDAY!!")
     }
     else {
         myTurn = !myTurn;
