@@ -17,7 +17,7 @@ function update() {
     var whiteFlip = canFlip(WHITE);
 
     if (numWhite + numBlack == 64 || (!blackFlip && !whiteFlip)) {
-        showMessage("これで終わり？？？？")
+        showMessage("HAPPY　BIRTHDAY!!!!")
     }
     else if (!blackFlip) {
         showMessage("ドンマイ");
