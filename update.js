@@ -17,7 +17,8 @@ function update() {
     var whiteFlip = canFlip(WHITE);
 
     if (numWhite + numBlack == 64 || (!blackFlip && !whiteFlip)) {
-        showMessage("HAPPY　BIRTHDAY!!!!")
+       //showMessage("HAPPY　BIRTHDAY!!!!")
+         window.location.href = 'fireworks.html'
     }
     else if (!blackFlip) {
         showMessage("ドンマイ");
